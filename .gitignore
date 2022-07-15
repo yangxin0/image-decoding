@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+/bazel-bin
+/bazel-out
+/bazel-image-decoding
+/bazel-testlogs
+/compile_commands.json
+/.vscode
+/.cache
