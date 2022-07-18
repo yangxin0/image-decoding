@@ -1,3 +1,6 @@
+
+package(default_visibility = ["//visibility:public"])
+
 cc_library(
     name = "fi_image_decoding_lib",
     srcs = ["fi_image_decoding.cpp", "fi_image_decoding.h"],

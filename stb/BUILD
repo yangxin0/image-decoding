@@ -1,4 +1,6 @@
 
+package(default_visibility = ["//visibility:public"])
+
 cc_library(
     name = "stb_image_decoding_lib",
     srcs = ["stb_image_decoding.cpp", "stb_image_decoding.h", "stb_image.h"],
